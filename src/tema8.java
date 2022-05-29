@@ -1,6 +1,6 @@
 public class tema8 {
     public static void main(String[] args){
-        Persona persona = new Persona();
+        Personal persona = new Personal();
 
         persona.setNombre("Ion");
         System.out.println(persona.getNombre());
@@ -24,7 +24,7 @@ public class tema8 {
         las propiedades edad, nombre y telefono, por último
         muéstralas por consola.
 */
-class Persona{
+class Personal{
     private int edad, telefono;
     private String nombre;
 // setter
